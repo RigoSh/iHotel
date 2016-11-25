@@ -188,7 +188,8 @@ static NSString * const BaseURLString = @"https://www.raywenderlich.com/demos/we
 - (void) iHotelHTTPClientDelegate:(iHotelHTTPClient *)client didUpdateWeather:(id)weather
 {
     self.weather = weather;
-    self.title = @"API Updated";
+    self.title = @"API Updated well!";
+    
     [self.tableView reloadData];
 }
 
