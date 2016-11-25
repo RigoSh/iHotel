@@ -1,0 +1,16 @@
+//
+//  iHotel-Prefix.pch
+//  iHotel
+//
+//  Created by Rigo on 23/11/2016.
+//  Copyright © 2016 Rigos. All rights reserved.
+//
+
+#ifndef iHotel_Prefix_pch
+#define iHotel_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+#import "AFNetworking.h"
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* iHotel_Prefix_pch */

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[iHotelTableViewController locationManager:didUpdateLocations:]:iHotelTableViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "__60-[iHotelHTTPClient updateWeatherAtLocation:forNumberOfDays:]_block_invoke:iHotelHTTPClient.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NSDictionary(weather) weatherIconURL]:NSDictionary+weather.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[iHotelTableViewController tableView:cellForRowAtIndexPath:]:iHotelTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
