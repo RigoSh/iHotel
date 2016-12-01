@@ -3,13 +3,30 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "-[iHotelMapController iHotelHTTPManagerDelegate:didGETHotels:]:iHotelMapController.m">
+      </ContextState>
+      <ContextState
          contextName = "-[iHotelTableViewController locationManager:didUpdateLocations:]:iHotelTableViewController.m">
       </ContextState>
       <ContextState
          contextName = "__60-[iHotelHTTPClient updateWeatherAtLocation:forNumberOfDays:]_block_invoke:iHotelHTTPClient.m">
       </ContextState>
       <ContextState
-         contextName = "-[NSDictionary(weather) weatherIconURL]:NSDictionary+weather.m">
+         contextName = "-[iHotelMapController tableView:numberOfRowsInSection:]:iHotelMapController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[iHotelsObject count]:iHotelsObject.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "(NSNumber *) _hotelsResponse[kResultsCount]">
+            </PersistentString>
+            <PersistentString
+               value = "(long)_hotelsResponse[kResultsCount]">
+            </PersistentString>
+            <PersistentString
+               value = "_hotelsResponse[kResultsCount]">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "-[iHotelTableViewController tableView:cellForRowAtIndexPath:]:iHotelTableViewController.m">
@@ -18,6 +35,9 @@
                value = "indexPath.section">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NSDictionary(weather) weatherIconURL]:NSDictionary+weather.m">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F250EE31DEF20D40008BAC3 /* Mapbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F250EE21DEF20D40008BAC3 /* Mapbox.framework */; };
+		0F250EE81DEF22AE0008BAC3 /* iHotelMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F250EE71DEF22AE0008BAC3 /* iHotelMapController.m */; };
 		0F6B0A911DE5CF2200547500 /* iHotelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6B0A901DE5CF2200547500 /* iHotelTableViewCell.m */; };
 		0F6B0A941DE5D62F00547500 /* placeholder.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 0F6B0A931DE5D62F00547500 /* placeholder.jpeg */; };
 		0FB162871DE5C7A400A1B240 /* NSDictionary+weather_package.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB162841DE5C7A400A1B240 /* NSDictionary+weather_package.m */; };
@@ -16,6 +18,8 @@
 		0FB7CBA61DE3335000FCEE82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7CBA41DE3335000FCEE82 /* Main.storyboard */; };
 		0FB7CBA81DE3335000FCEE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7CBA71DE3335000FCEE82 /* Assets.xcassets */; };
 		0FB7CBAB1DE3335000FCEE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FB7CBA91DE3335000FCEE82 /* LaunchScreen.storyboard */; };
+		0FBF85D91DF02E5F0089EF61 /* iHotelHTTPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBF85D81DF02E5F0089EF61 /* iHotelHTTPManager.m */; };
+		0FBF85DC1DF03B3C0089EF61 /* iHotelsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBF85DB1DF03B3C0089EF61 /* iHotelsObject.m */; };
 		0FD5F83A1DE5A39A00DE3639 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0FD5F8391DE5A39A00DE3639 /* Podfile */; };
 		0FD5F85E1DE5AD6900DE3639 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD5F83D1DE5AD6900DE3639 /* AFHTTPSessionManager.m */; };
 		0FD5F85F1DE5AD6900DE3639 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FD5F8401DE5AD6900DE3639 /* AFNetworkReachabilityManager.m */; };
@@ -38,6 +42,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F250EE21DEF20D40008BAC3 /* Mapbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mapbox.framework; sourceTree = "<group>"; };
+		0F250EE61DEF22AE0008BAC3 /* iHotelMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHotelMapController.h; sourceTree = "<group>"; };
+		0F250EE71DEF22AE0008BAC3 /* iHotelMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHotelMapController.m; sourceTree = "<group>"; };
 		0F6B0A8F1DE5CF2200547500 /* iHotelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHotelTableViewCell.h; sourceTree = "<group>"; };
 		0F6B0A901DE5CF2200547500 /* iHotelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHotelTableViewCell.m; sourceTree = "<group>"; };
 		0F6B0A931DE5D62F00547500 /* placeholder.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpeg; sourceTree = "<group>"; };
@@ -53,6 +60,10 @@
 		0FB7CBA71DE3335000FCEE82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FB7CBAA1DE3335000FCEE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FB7CBAC1DE3335000FCEE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBF85D71DF02E5F0089EF61 /* iHotelHTTPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHotelHTTPManager.h; sourceTree = "<group>"; };
+		0FBF85D81DF02E5F0089EF61 /* iHotelHTTPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHotelHTTPManager.m; sourceTree = "<group>"; };
+		0FBF85DA1DF03B3C0089EF61 /* iHotelsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHotelsObject.h; sourceTree = "<group>"; };
+		0FBF85DB1DF03B3C0089EF61 /* iHotelsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHotelsObject.m; sourceTree = "<group>"; };
 		0FD5F8391DE5A39A00DE3639 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		0FD5F83C1DE5AD6900DE3639 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
 		0FD5F83D1DE5AD6900DE3639 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
@@ -101,6 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FE12A311DE8739900FFE594 /* CoreLocation.framework in Frameworks */,
+				0F250EE31DEF20D40008BAC3 /* Mapbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,12 +138,18 @@
 		0F6B0A8E1DE5CED200547500 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				0F250EE61DEF22AE0008BAC3 /* iHotelMapController.h */,
+				0F250EE71DEF22AE0008BAC3 /* iHotelMapController.m */,
+				0FBF85D71DF02E5F0089EF61 /* iHotelHTTPManager.h */,
+				0FBF85D81DF02E5F0089EF61 /* iHotelHTTPManager.m */,
 				0FD5F86E1DE5B3DD00DE3639 /* iHotelTableViewController.h */,
 				0FD5F86F1DE5B3DD00DE3639 /* iHotelTableViewController.m */,
 				0FE12A2C1DE86C2C00FFE594 /* iHotelHTTPClient.h */,
 				0FE12A2D1DE86C2C00FFE594 /* iHotelHTTPClient.m */,
 				0F6B0A8F1DE5CF2200547500 /* iHotelTableViewCell.h */,
 				0F6B0A901DE5CF2200547500 /* iHotelTableViewCell.m */,
+				0FBF85DA1DF03B3C0089EF61 /* iHotelsObject.h */,
+				0FBF85DB1DF03B3C0089EF61 /* iHotelsObject.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -254,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				0FE12A301DE8739900FFE594 /* CoreLocation.framework */,
+				0F250EE21DEF20D40008BAC3 /* Mapbox.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -333,10 +352,13 @@
 			files = (
 				0FD5F86A1DE5AD6900DE3639 /* UIProgressView+AFNetworking.m in Sources */,
 				0FE12A2E1DE86C2C00FFE594 /* iHotelHTTPClient.m in Sources */,
+				0FBF85DC1DF03B3C0089EF61 /* iHotelsObject.m in Sources */,
 				0FD5F8631DE5AD6900DE3639 /* AFURLSessionManager.m in Sources */,
 				0FB162871DE5C7A400A1B240 /* NSDictionary+weather_package.m in Sources */,
 				0F6B0A911DE5CF2200547500 /* iHotelTableViewCell.m in Sources */,
 				0FB162881DE5C7A400A1B240 /* NSDictionary+weather.m in Sources */,
+				0FBF85D91DF02E5F0089EF61 /* iHotelHTTPManager.m in Sources */,
+				0F250EE81DEF22AE0008BAC3 /* iHotelMapController.m in Sources */,
 				0FD5F86C1DE5AD6900DE3639 /* UIWebView+AFNetworking.m in Sources */,
 				0FD5F8691DE5AD6900DE3639 /* UIImageView+AFNetworking.m in Sources */,
 				0FD5F8681DE5AD6900DE3639 /* UIButton+AFNetworking.m in Sources */,
@@ -421,6 +443,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -461,6 +484,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -470,6 +494,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "~/Desktop/Projects/iHotel/iHotel/iHotel-Prefix.pch";
 				INFOPLIST_FILE = iHotel/Info.plist;
@@ -483,6 +511,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "~/Desktop/Projects/iHotel/iHotel/iHotel-Prefix.pch";
 				INFOPLIST_FILE = iHotel/Info.plist;
